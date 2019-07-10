@@ -18,5 +18,6 @@ from django.urls import path
 from . import views
 urlpatterns = [
     path('login/',views.login),#登录功能
-    path('reg/',views.reg)#登录功能
+    path('reg/',views.reg),#登录功能
+    path('add/',views.add),#添加功能
 ]
